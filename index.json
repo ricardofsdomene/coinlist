@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "image": "https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579",
+        "name": "Bitcoin",
+        "Tokn": 13,
+        "Qual": 13,
+        "Govr": 13,
+        "Risco": 13,
+        "Media": 13
+    },
+    {
+        "id": 2,
+        "image": "https://assets.coingecko.com/coins/images/279/small/ethereum.png?1595348880",
+        "name": "Ethereum",
+        "Tokn": 13,
+        "Qual": 13,
+        "Govr": 13,
+        "Risco": 13,
+        "Media": 13
+    },
+    {
+        "id": 3,
+        "image": "https://assets.coingecko.com/coins/images/877/small/chainlink-new-logo.png?1547034700",
+        "name": "Chainlink",
+        "Tokn": 3,
+        "Qual": 13,
+        "Govr": 8,
+        "Risco": 5,
+        "Media": 7.25
+    },
+    {
+        "id": 4,
+        "image": "https://assets.coingecko.com/coins/images/12171/small/polkadot.png?1639712644",
+        "name": "Polkadot",
+        "Tokn": 5,
+        "Qual": 8,
+        "Govr": 8,
+        "Risco": 5,
+        "Media": 6.5
+    },
+    {
+        "id": 5,
+        "image": "https://assets.coingecko.com/coins/images/4713/small/matic-token-icon.png?1624446912",
+        "name": "Polygon",
+        "Tokn": 5,
+        "Qual": 8,
+        "Govr": 8,
+        "Risco": 5,
+        "Media": 6.5
+    },
+    {
+        "id": 6,
+        "image": "https://assets.coingecko.com/coins/images/4128/small/solana.png?1640133422",
+        "name": "Solana",
+        "Tokn": 5,
+        "Qual": 8,
+        "Govr": 8,
+        "Risco": 5,
+        "Media": 6.5
+    },
+    {
+        "id": 7,
+        "image": "https://assets.coingecko.com/coins/images/12504/small/uniswap-uni.png?1600306604",
+        "name": "Uniswap",
+        "Tokn": 3,
+        "Qual": 13,
+        "Govr": 5,
+        "Risco": 5,
+        "Media": 6.5
+    },
+    {
+        "id": 8,
+        "image": "https://assets.coingecko.com/coins/images/12645/small/AAVE.png?1601374110",
+        "name": "Aave",
+        "Tokn": 3,
+        "Qual": 8,
+        "Govr": 8,
+        "Risco": 5,
+        "Media": 6
+    },
+    {
+        "id": 9,
+        "image": "https://assets.coingecko.com/coins/images/12559/small/coin-round-red.png?1604021818",
+        "name": "Avalanche",
+        "Tokn": 3,
+        "Qual": 8,
+        "Govr": 8,
+        "Risco": 3,
+        "Media": 5.5
+    },
+    {
+        "id": 10,
+        "image": "https://assets.coingecko.com/coins/images/4380/small/download.png?1547039725",
+        "name": "Algorand",
+        "Tokn": 5,
+        "Qual": 5,
+        "Govr": 3,
+        "Risco": 3,
+        "Media": 4
+    },
+    {
+        "id": 11,
+        "image": "https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png?1644979850",
+        "name": "Binance",
+        "Tokn": 3,
+        "Qual": 3,
+        "Govr": 3,
+        "Risco": 5,
+        "Media": 3.5
+    },
+    {
+        "id": 12,
+        "image": "https://assets.coingecko.com/coins/images/12817/small/filecoin.png?1602753933",
+        "name": "Filecoin",
+        "Tokn": 1,
+        "Qual": 5,
+        "Govr": 5,
+        "Risco": 3,
+        "Media": 3.5
+    },
+    {
+        "id": 13,
+        "image": "https://assets.coingecko.com/coins/images/13029/small/axie_infinity_logo.png?1604471082",
+        "name": "Axie Infinity",
+        "Tokn": 1,
+        "Qual": 5,
+        "Govr": 5,
+        "Risco": 1,
+        "Media": 3
+    },
+    {
+        "id": 14,
+        "image": "https://assets.coingecko.com/coins/images/975/small/cardano.png?1547034860",
+        "name": "Cardano",
+        "Tokn": 3,
+        "Qual": 3,
+        "Govr": 5,
+        "Risco": 1,
+        "Media": 3
+    },
+    {
+        "id": 15,
+        "image": "https://assets.coingecko.com/coins/images/7310/small/oCw2s3GI_400x400.jpeg?1645172042",
+        "name": "Cronos",
+        "Tokn": 1,
+        "Qual": 3,
+        "Govr": 3,
+        "Risco": 3,
+        "Media": 2.5
+    },
+    {
+        "id": 16,
+        "image": "https://assets.coingecko.com/markets/images/589/small/Crypto.jpg?1629861084",
+        "name": "Crypto.com",
+        "Tokn": 1,
+        "Qual": 3,
+        "Govr": 3,
+        "Risco": 1,
+        "Media": 2
+    },
+    {
+        "id": 17,
+        "image": "https://assets.coingecko.com/coins/images/9026/small/F.png?1609051564",
+        "name": "FTX",
+        "Tokn": 1,
+        "Qual": 3,
+        "Govr": 3,
+        "Risco": 1,
+        "Media": 2
+    },
+    {
+        "id": 18,
+        "image": "https://assets.coingecko.com/coins/images/24383/small/apecoin.jpg?1647476455",
+        "name": "ApeCoin",
+        "Tokn": 1,
+        "Qual": 3,
+        "Govr": 1,
+        "Risco": 1,
+        "Media": 1.5
+    },
+    {
+        "id": 19,
+        "image": "https://assets.coingecko.com/coins/images/9947/small/256-999.png?1573702492",
+        "name": "999",
+        "Tokn": 1,
+        "Qual": 1,
+        "Govr": 1,
+        "Risco": 1,
+        "Media": 1
+    },
+    {
+        "id": 20,
+        "image": "https://assets.coingecko.com/coins/images/780/small/bitcoin-cash-circle.png?1594689492",
+        "name": "Bitcoin Cash",
+        "Tokn": 1,
+        "Qual": 1,
+        "Govr": 1,
+        "Risco": 1,
+        "Media": 1
+    }
+]
