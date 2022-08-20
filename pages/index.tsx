@@ -272,6 +272,10 @@ export default function Index({ props }: any) {
               ? 1509486
               : src === "youtube-live"
               ? 1509863
+              : src === "igor-bevilaqua-tiktok" 
+              ? 1509974 
+              : src === "crypto-depre"
+              ? 1509975
               : 1509482
             : 1509486,
           SequenceLevelCode: 1,
