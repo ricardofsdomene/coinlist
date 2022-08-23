@@ -78,6 +78,19 @@ export default function Success({ props }: any) {
   const toast = useToast();
   const router = useRouter();
 
+  useEffect(() => {
+    import("react-facebook-pixel")
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init("586978001720745");
+        ReactPixel.fbq("track", "cadastro");
+
+        router.events.on("routeChangeComplete", () => {
+          ReactPixel.pageView();
+        });
+      });
+  }, [router.events]);
+
   const { src } = router.query;
 
   const [loading, setLoading] = useState(true);
@@ -1352,9 +1365,7 @@ export default function Success({ props }: any) {
                                   {i + 1}
                                 </Td>
                                 <Td color="#000" w={200} fontSize={14}>
-                                  <Flex
-                                  textAlign="center"
-                                  align="center">
+                                  <Flex textAlign="center" align="center">
                                     <Image
                                       style={{
                                         marginRight: 10,
@@ -1368,7 +1379,6 @@ export default function Success({ props }: any) {
                                 </Td>
                                 <Td
                                   textAlign="center"
-
                                   color="#000"
                                   w={90}
                                   fontSize={14}
@@ -1377,8 +1387,7 @@ export default function Success({ props }: any) {
                                 </Td>
                                 {currency === "USD" ? (
                                   <Td
-                                  textAlign="center"
-
+                                    textAlign="center"
                                     w={70}
                                     color={
                                       d.market_data
@@ -1396,8 +1405,7 @@ export default function Success({ props }: any) {
                                   </Td>
                                 ) : (
                                   <Td
-                                  textAlign="center"
-
+                                    textAlign="center"
                                     w={70}
                                     color={
                                       d.market_data
@@ -1416,7 +1424,6 @@ export default function Success({ props }: any) {
                                 )}
                                 <Td
                                   textAlign="center"
-
                                   w={70}
                                   color={
                                     d.market_data.price_change_percentage_24h >
@@ -1433,7 +1440,6 @@ export default function Success({ props }: any) {
                                 </Td>
                                 <Td
                                   textAlign="center"
-
                                   w={85}
                                   color={
                                     d.market_data.price_change_percentage_7d > 0
