@@ -261,23 +261,8 @@ export default function Index({ props }: any) {
         const response = await axios.post(url, {
           Email: email,
           MachineCode: 394001,
-          EmailSequenceCode: src
-            ? src === "youtube-video"
-              ? 1509483
-              : src === "google-ads"
-              ? 1509484
-              : src === "face-ads"
-              ? 1509485
-              : src === "instagram"
-              ? 1509486
-              : src === "youtube-live"
-              ? 1509863
-              : src === "igor-bevilaqua-tiktok" 
-              ? 1509974 
-              : src === "crypto-depre"
-              ? 1509975
-              : 1509482
-            : 1509486,
+          EmailSequenceCode: 1509482,
+          Source: src ? src : "comparadorcripto.com.br",
           SequenceLevelCode: 1,
         });
         if (response.status === 200) {
