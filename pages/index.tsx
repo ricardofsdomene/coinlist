@@ -18,7 +18,7 @@ import {
   Box,
   Checkbox,
 } from "@chakra-ui/react";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useLayoutEffect, useState } from "react";
 import Header from "../components/Header/índex";
 import axios from "axios";
 
@@ -78,6 +78,19 @@ export default function Index({ props }: any) {
   const size = useWindowSize();
   const toast = useToast();
   const router = useRouter();
+
+  useEffect(() => {
+    import("react-facebook-pixel")
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init("586978001720745");
+        ReactPixel.pageView();
+
+        router.events.on("routeChangeComplete", () => {
+          ReactPixel.pageView();
+        });
+      });
+  }, [router.events]);
 
   const { src } = router.query;
 
