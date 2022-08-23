@@ -1932,8 +1932,6 @@ export default function Index({ props }: any) {
 
   return (
     <>
-      <Head>
-      </Head>
       <div
         style={{
           padding: 0,

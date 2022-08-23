@@ -1,11 +1,21 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { useContext } from "react";
 
+const FB_PIXEL_ID: string | undefined = process.env.FB_PIXEL_ID;
+
 export default class MyDocument extends Document {
   render() {
     return (
       <Html>
         <Head>
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              style={{ display: "none" }}
+              src={`https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1`}
+            />
+          </noscript>
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=AW-10906897981`}
