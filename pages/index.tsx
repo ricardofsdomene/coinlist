@@ -2026,6 +2026,8 @@ export default function Index({ props }: any) {
                   justify="center"
                 >
                   <Checkbox
+                    borderRadius="3"
+                    border="1px solid #bbb"
                     isChecked={LGPDChecked}
                     onChange={() => setLGPDChecked(!LGPDChecked)}
                   />
