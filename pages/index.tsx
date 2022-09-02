@@ -1760,7 +1760,7 @@ export default function Index({ props }: any) {
             }}
           />
         )}
-        <Flex flexDir="column" justify="center" mt="7" align="center">
+        <Flex flexDir="column" justify="center" mt="7">
           <Text
             cursor="pointer"
             onClick={() => router.push("https://holdmerc.com.br/")}
@@ -1769,7 +1769,7 @@ export default function Index({ props }: any) {
             fontSize="xs"
             mr="2"
           >
-            Dados do marketcap por Coingecko
+            ATENÇÃO!!! ESSA LISTA É UM REORDENAMENTO DAS 20 MAIORES CRIPTOS DO MERCADO, COM BASE NA QUALIDADE DOS ATIVOS EM QUESTÃO. POR ISSO, ESSA LISTA POSSUI ALGUNS ATIVOS QUE NÓS NÃO RECOMENDAMOS (COMO, POR EXEMPLO, SHIBA INU E DOGECOIN), POIS O VALOR DE MERCADO DELAS É MUITO GRANDE. NÃO ESTAMOS RECOMENDANDO ESTES 20 ATIVOS, O COMPARADOR É APENAS UM ESTUDO DE COMO A MERCURIUS RECLASSIFICARIA ESSAS 20 MAIORES CRIPTOS.
           </Text>
           <Text
             cursor="pointer"
@@ -1779,7 +1779,7 @@ export default function Index({ props }: any) {
             fontSize="xs"
             mr="2"
           >
-            Não consideramos stablecoins e sintéticos
+            FONTES: Utilizamos o CoinMarketCap para a composição do top 20 (última atualização: 31/08/2022). Utilizamos o CoinGecko para a atualização dos preços (atualizado automaticamente).
           </Text>
         </Flex>
         <Flex mt="6">
